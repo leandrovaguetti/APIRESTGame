@@ -38,7 +38,7 @@ const RankingController = require('./controllers/RankingController');
 
 app.get('/all/ranking', RankingController.show);
 
-
+app.post('/ranking', RankingController.store);
 
 
 
