@@ -14,3 +14,15 @@ const RankingSchema = new mongoose.Schema(
 );
 
 module.exports = mongoose.model('Ranking', RankingSchema);
+
+/*
+{
+   "record" : 100,
+   "old_record" : 0,
+   "_idUser": "6491ef692100a4af034750ee"
+}
+
+
+
+
+*/

@@ -9,3 +9,15 @@ const UserSchema = new mongoose.Schema(
 );
 
 module.exports = mongoose.model('User', UserSchema);
+
+/*
+{
+   "nikname" : "vaguetti",
+   "email": "jogosifb@gmail.com",
+   "password" : "jogosifb2023"
+}
+
+
+
+
+*/
