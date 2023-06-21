@@ -12,7 +12,7 @@ module.exports = mongoose.model('User', UserSchema);
 
 /*
 {
-   "nikname" : "vaguetti",
+   "nickname" : "vaguetti",
    "email": "jogosifb@gmail.com",
    "password" : "jogosifb2023"
 }

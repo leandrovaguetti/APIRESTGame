@@ -12,7 +12,7 @@ module.exports = {
      async indexbyUserId(req,res)
     {
         let ranking = await Ranking.find(
-          { _userId : req.params.id }
+          { _idUser : req.params.id }
                                    );
         return res.json(ranking);
     },
@@ -40,7 +40,7 @@ module.exports = {
   // altera ranking de jogador
   // devesse passar dois dados: o id via param e o json via body
    async update(req,res){
-        let ranking = await ranking.findByIdAndUpdate(req.params.id,req.body,{new:true}); 
+        let ranking = await Ranking.findByIdAndUpdate(req.params.id, req.body,{new:true}); 
         return res.json(ranking);
     }
  

@@ -37,8 +37,9 @@ app.put('/user/:id', userController.update);
 const RankingController = require('./controllers/RankingController');
 
 app.get('/all/ranking', RankingController.show);
-
+app.get('/ranking/:id', RankingController.indexbyUserId);
 app.post('/ranking', RankingController.store);
+app.put('/ranking/:id', RankingController.update);
 
 
 
